@@ -1,13 +1,5 @@
-var mysql = require("mysql");
-const AWSCognito = require("amazon-cognito-identity-js");
 
-var pool = mysql.createPool({
-    connectionLimit: 10,
-    host: "",
-    user: "root",
-    password: "testing",
-    database: ""
-});
+const AWSCognito = require("amazon-cognito-identity-js");
 
 var poolData = {
     UserPoolId: "", // Your user pool id here
