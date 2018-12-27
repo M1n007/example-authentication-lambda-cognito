@@ -9,7 +9,7 @@ const CognitoRefreshToken = require('amazon-cognito-identity-js-node').CognitoRe
 const COGNITO_IDENTITY_POOL_ID = "YOUR IDENTITY POOL ID";
 const COGNITO_USER_POOL_ID = "YOUR COGNITO USER POOL ID";
 const COGNITO_CLIENT_ID = "YOUR COGNITO CLIENT ID";
-const AWS_API_GATEWAY_HOSTNAME = "API GATEWAY HOSTNAMR";
+const AWS_API_GATEWAY_HOSTNAME = "API GATEWAY HOSTNAME";
 const AWS_REGION = "us-east-2";
 
 AWS.config.region = 'us-east-2'; // Region
